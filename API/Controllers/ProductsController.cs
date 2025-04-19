@@ -75,5 +75,4 @@ public class ProductsController : ControllerBase
     {
         return _context.Products.Any(x => x.Id == id);
     }
-
 }
